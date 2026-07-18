@@ -1,4 +1,5 @@
-# 🧠 Research Paper Intelligence System
+# ATHERA
+### a Research Paper Intelligence System
 
 An end-to-end NLP pipeline that lets you **search, summarize, extract keywords from, and compare** research papers using natural language queries — powered by semantic search, transformer summarization, and an LLM agent that automatically selects the right tool for each query.
 
