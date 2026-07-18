@@ -1,17 +1,17 @@
 # ATHERA
-### a Research Paper Intelligence System
+### A Research Paper Intelligence System
 
 An end-to-end NLP pipeline that lets you **search, summarize, extract keywords from, and compare** research papers using natural language queries — powered by semantic search, transformer summarization, and an LLM agent that automatically selects the right tool for each query.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Finding relevant research papers—and then understanding them—doesn't scale when you're dealing with thousands of publications. This project builds a complete retrieval-augmented NLP pipeline over a corpus of **15,000 machine learning papers from arXiv**, then wraps it inside a conversational LLM agent so users can interact with the entire collection using plain English.
 
 ---
 
-## 🚀 Pipeline
+##  Pipeline
 
 ### 1. Data Loading & Cleaning
 - **Dataset:** `CShorten/ML-ArXiv-Papers`
@@ -49,7 +49,7 @@ Finding relevant research papers—and then understanding them—doesn't scale w
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Sentence-Transformers
@@ -63,7 +63,7 @@ Finding relevant research papers—and then understanding them—doesn't scale w
 
 ---
 
-## 💬 Example Queries
+##  Example Queries
 
 ```text
 Find the top 3 research papers on Vision Transformers and summarize them.
@@ -80,7 +80,7 @@ Compare a paper about Vision Transformers with a paper about Convolutional Neura
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 pip install datasets sentence-transformers faiss-cpu keybert \
@@ -112,6 +112,6 @@ Run the notebook from top to bottom. The embeddings and FAISS index are automati
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Atiksh Sharma**
